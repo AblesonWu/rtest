@@ -7,6 +7,10 @@
 
 [![Travis build
 status](https://travis-ci.com/AblesonWu/rtest.svg?branch=master)](https://travis-ci.com/AblesonWu/rtest)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/AblesonWu/rtest?branch=master&svg=true)](https://ci.appveyor.com/project/AblesonWu/rtest)
+[![Codecov test
+coverage](https://codecov.io/gh/AblesonWu/rtest/branch/master/graph/badge.svg)](https://codecov.io/gh/AblesonWu/rtest?branch=master)
 <!-- badges: end -->
 
 The goal of rtest is to Provides functions for my package

@@ -14,7 +14,8 @@ URL: https://github.com/AblesonWu/rtest
 BugReports: https://github.com/AblesonWu/rtest/issues
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    covr
 VignetteBuilder: knitr
 Imports: 
     tibble
