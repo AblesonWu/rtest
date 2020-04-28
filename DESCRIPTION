@@ -15,7 +15,10 @@ BugReports: https://github.com/AblesonWu/rtest/issues
 Suggests: 
     knitr,
     rmarkdown,
-    covr
+    covr,
+    testthat
 VignetteBuilder: knitr
 Imports: 
     tibble
+Depends: 
+    R (>= 2.10)
