@@ -1,13 +1,18 @@
-#' Title
+#' Silly Printer function
 #'
-#' @param r
-#' @param x
-#' @param y
+#' @param r what you want in the second column
+#' @param x what you want in the first column
 #'
-#' @return
+#' @return A tibble
 #' @export
 #'
+#' @importFrom tibble tibble
+#' @importFrom utils head
 #' @examples
-printer <- function( r, x, y ){
-  print(paste0("x = ", x ,", y = ", y))
+#' printer(r = rnorm(5), x = rnorm(5))
+printer <- function( r, x){
+  x <- tibble(r = r, x = x)
+  print(head(x))
+
+  return(x)
 }
