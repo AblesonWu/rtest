@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.com/AblesonWu/rtest.svg?branch=master)](https://travis-ci.com/AblesonWu/rtest)
 <!-- badges: end -->
 
 The goal of rtest is to Provides functions for my package
